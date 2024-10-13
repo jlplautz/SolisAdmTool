@@ -11,6 +11,5 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'solisadmtoll.settings')
-
-application = get_asgi_application()
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'solisadmtool.settings')
+Lapplication = get_asgi_application()
